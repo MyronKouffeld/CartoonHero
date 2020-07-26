@@ -6,15 +6,13 @@ body{
     line-height: 25px;
 }
 
+/* header styles */
+
 header{
   background-color: #676767;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 30px;
-}
-
-h1, h2{
-  font-family: 'Ubuntu', sans-serif;
 }
 
 header h1{
@@ -27,6 +25,16 @@ header img{
   border: 4px solid black;
 }
 
+h1, h2{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h2{
+  font-size: 20px;
+  color: #272c1e;
+  margin: 40px 0 5px 0;
+}
+
 main{
   max-width: 800px;
   margin: 0 auto;
@@ -36,12 +44,6 @@ main{
 main img{
   max-width: 100%;
   margin-top: 40px;
-}
-
-h2{
-  font-size: 20px;
-  color: #272c1e;
-  margin: 40px 0 5px 0;
 }
 
 p, ol, ul{
